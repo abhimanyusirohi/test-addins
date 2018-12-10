@@ -1,0 +1,9 @@
+{
+    "sourceName": "Test Add-ins",
+    "addins": [
+        {
+            "name": "Version Viewer",
+            "metadataUrl": "https://abhimanyusirohi.github.io/test-addins/version-viewer/chemdraw-addin-metadata.json"
+        }
+    ]
+}
