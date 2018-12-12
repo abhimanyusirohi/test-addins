@@ -1,0 +1,17 @@
+{
+    "sourceName": "Seven Wonders Inc.",
+    "addins": [
+        {
+            "name": "Taj Mahal",
+            "metadataUrl": "https://abhimanyusirohi.github.io/test-addins/demo/tajmahal/tajmahal-metadata.json"
+        },
+        {
+            "name": "Christ the Redeemer",
+            "metadataUrl": "https://abhimanyusirohi.github.io/test-addins/demo/eiffel/eiffel-metadata.json"
+        },
+        {
+            "name": "Colosseum",
+            "metadataUrl": "https://abhimanyusirohi.github.io/test-addins/demo/colosseum/colosseum-metadata.json"
+        }
+    ]
+}
