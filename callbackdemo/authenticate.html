@@ -7,14 +7,22 @@
 
         <link href="https://unify-dev.scienceaccelerated.com/1.0.5/pe.css" rel="stylesheet">
 
-        <script>
+        <style>
+            .margin-10-bottom {
+                margin-bottom: 10px;
+            }
+        </style>
 
+        <script>
             function authenticate() {
                 try {
                     var url = new URL(window.location.href);
                     var redirectParam = url.searchParams.get("redirect");
+                    var tokenValue = document.getElementById('token').value;
 
+                    redirectParam = redirectParam + '&token=' + tokenValue;
                     window.open(redirectParam);
+
                     window.close();
                 }
                 catch(err) {
@@ -29,6 +37,11 @@
             <div class="row text-center margin-10-bottom">
                 <div class="col-xs-12">
                     <h4>Dummy Authenticator</h4>
+                </div>
+            </div>
+            <div class="row margin-10-bottom">
+                <div class="col-xs-4">
+                    <input id="token" class="form-control" type="text" value="XYZ-1234-5678"/>
                 </div>
             </div>
             <div class="row">
