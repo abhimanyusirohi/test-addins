@@ -14,7 +14,7 @@
         </style>
 
         <script>
-            function authenticate() {
+            function authorize() {
                 try {
                     var url = new URL(window.location.href);
                     var redirectParam = url.searchParams.get("redirect");
@@ -36,17 +36,18 @@
         <div class="modal-body">
             <div class="row text-center margin-10-bottom">
                 <div class="col-xs-12">
-                    <h4>Dummy Authenticator</h4>
+                    <h4>Third-Party Service</h4>
                 </div>
             </div>
             <div class="row margin-10-bottom">
-                <div class="col-xs-4">
+                <div class="col-xs-6">
+                    <div>Secret token (appended by the service):</div>
                     <input id="token" class="form-control" type="text" value="XYZ-1234-5678"/>
                 </div>
             </div>
             <div class="row">
                 <div class="col-xs-4">
-                    <input type="button" onclick="authenticate()" value="Authenticate"/>
+                    <input type="button" onclick="authorize()" value="Authorize"/>
                 </div>
             </div>
         </div>
