@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link href="https://unify-dev.scienceaccelerated.com/1.0.5/pe.css" rel="stylesheet">
+
+        <style>
+            .margin-10-bottom {
+                margin-bottom: 10px;
+            }
+        </style>
+
+        <script>
+
+            function parseUri (str) {
+                var	o   = parseUri.options,
+                    m   = o.parser[o.strictMode ? "strict" : "loose"].exec(str),
+                    uri = {},
+                    i   = 14;
+
+                while (i--) uri[o.key[i]] = m[i] || "";
+
+                uri[o.q.name] = {};
+                uri[o.key[12]].replace(o.q.parser, function ($0, $1, $2) {
+                    if ($1) uri[o.q.name][$1] = $2;
+                });
+
+                return uri;
+            };
+
+            parseUri.options = {
+                strictMode: false,
+                key: ["source","protocol","authority","userInfo","user","password","host","port","relative","path","directory","file","query","anchor"],
+                q:   {
+                    name:   "queryKey",
+                    parser: /(?:^|&)([^&=]*)=?([^&]*)/g
+                },
+                parser: {
+                    strict: /^(?:([^:\/?#]+):)?(?:\/\/((?:(([^:@]*)(?::([^:@]*))?)?@)?([^:\/?#]*)(?::(\d*))?))?((((?:[^?#\/]*\/)*)([^?#]*))(?:\?([^#]*))?(?:#(.*))?)/,
+                    loose:  /^(?:(?![^:@]+:[^:@\/]*@)([^:\/?#.]+):)?(?:\/\/)?((?:(([^:@]*)(?::([^:@]*))?)?@)?([^:\/?#]*)(?::(\d*))?)(((\/(?:[^?#](?![^?#\/]*\.[^?#\/.]+(?:[?#]|$)))*\/?)?([^?#\/]*))(?:\?([^#]*))?(?:#(.*))?)/
+                }
+            };
+
+            function authorize() {
+                try {
+                    var url = new parseUri(window.location.href);
+                    var redirectParam = url.queryKey.redirect_uri;
+                    var state = url.queryKey.state;
+                    var tokenValue = document.getElementById('token').value;
+
+                    redirectParam = redirectParam + '#access_token=' + tokenValue + '&state=' + state;
+                    window.open(redirectParam);
+
+                    window.close();
+                }
+                catch(err) {
+                    alert(err.message);
+                }
+            }
+        </script>
+    </head>
+ 
+    <body onload="onLoadBody()">
+        <div class="modal-body">
+            <div class="row text-center margin-10-bottom">
+                <div class="col-xs-12">
+                    <h4>Third-Party Service (OAuth v2)</h4>
+                </div>
+            </div>
+            <div class="row margin-10-bottom">
+                <div class="col-xs-6">
+                    <div>Secret token (appended by the service):</div>
+                    <input id="token" class="form-control" type="text" value="XYZ-1234-5678"/>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-xs-4">
+                    <input type="button" onclick="authorize()" value="Authorize"/>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
