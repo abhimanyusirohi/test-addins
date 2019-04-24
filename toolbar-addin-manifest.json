@@ -1,0 +1,6 @@
+{
+    "sourceName": "Toolbar Add-ins",
+    "addins": [
+        "https://abhimanyusirohi.github.io/test-addins/toolbaraddin/chemdraw-addin-metadata.json"
+    ]
+}
