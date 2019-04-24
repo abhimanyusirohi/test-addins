@@ -1,0 +1,8 @@
+{
+    "sourceName": "Seven Wonders Inc.",
+    "addins": [
+        "https://abhimanyusirohi.github.io/test-addins/demo/tajmahal/tajmahal-metadata.json",
+        "https://abhimanyusirohi.github.io/test-addins/demo/christ-the-redeemer/christ-the-redeemer-metadata.json",
+        "https://abhimanyusirohi.github.io/test-addins/demo/colosseum/colosseum-metadata.json"
+    ]
+}

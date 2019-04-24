@@ -1,4 +1,5 @@
 {
+    "name": "Colosseum",
     "description": "Displays information about the colosseum",
     "version": "1.0",
     "menuItemText": "Colosseum",
