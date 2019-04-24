@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script>
+            function onLoadBody() {
+                var messageBox = document.getElementById('message-box');
+                messageBox.innerHTML = 'ChemDraw API v' + ChemDrawAPI.version;
+            }
+        </script>
+
+        <style>
+            .text-center {
+                text-align: center;
+            }
+        </style>
+    </head>
+
+    <body class="text-center" onload="onLoadBody()">
+        <h1>Toolbar Add-in</h1>
+        <hr/>
+        <div id="message-box"/>
+    </body>
+</html>
