@@ -10,6 +10,6 @@
         "image32": "https://abhimanyusirohi.github.io/test-addins/toolbaraddin/toolbarImages/32x32.png",
         "image48": "https://abhimanyusirohi.github.io/test-addins/toolbaraddin/toolbarImages/48x48.png",
         "image64": "https://abhimanyusirohi.github.io/test-addins/toolbaraddin/toolbarImages/64x64.png",
-        "tooltip": "Local toolbar add-in"
+        "tooltip": "Web toolbar add-in"
     }
 }
