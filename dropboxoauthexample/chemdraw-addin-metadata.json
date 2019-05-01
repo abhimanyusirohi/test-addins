@@ -4,7 +4,7 @@
     "version": "1.0",
     "menuItemText": "ChemDrawOAuthExample - Web",
     "minimumAPIVersion": "1.2",
-    "url": "index.html",
+    "url": "https://abhimanyusirohi.github.io/test-addins/dropboxoauthexample/index.html",
     "toolbar": {
         "image24": "https://abhimanyusirohi.github.io/test-addins/dropboxoauthexample/toolbarImages/24x24.png",
         "image32": "https://abhimanyusirohi.github.io/test-addins/dropboxoauthexample/toolbarImages/32x32.png",
