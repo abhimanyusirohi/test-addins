@@ -1,0 +1,6 @@
+{
+    "sourceName": "OAuth Example Add-ins",
+    "addins": [
+        "https://abhimanyusirohi.github.io/test-addins/dropboxoauthexample/chemdraw-addin-metadata.json"
+    ]
+}

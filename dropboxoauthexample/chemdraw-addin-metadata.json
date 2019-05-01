@@ -1,0 +1,15 @@
+{
+    "name": "ChemDrawOAuthExample - Web",
+    "description": "A web ChemDraw add-in to demonstrate OAuth workflow",
+    "version": "1.0",
+    "menuItemText": "ChemDrawOAuthExample - Web",
+    "minimumAPIVersion": "1.2",
+    "url": "index.html",
+    "toolbar": {
+        "image24": "https://abhimanyusirohi.github.io/test-addins/dropboxoauthexample/toolbarImages/24x24.png",
+        "image32": "https://abhimanyusirohi.github.io/test-addins/dropboxoauthexample/toolbarImages/32x32.png",
+        "image48": "https://abhimanyusirohi.github.io/test-addins/dropboxoauthexample/toolbarImages/48x48.png",
+        "image64": "https://abhimanyusirohi.github.io/test-addins/dropboxoauthexample/toolbarImages/64x64.png",
+        "tooltip": "ChemDrawOAuthExample - Web add-in"
+    }
+}
