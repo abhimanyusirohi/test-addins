@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script>
+            function onLoadBody() {
+                var periodicTableImage = document.getElementById("periodicTable");
+                
+                var width = periodicTableImage.offsetWidth + (0.05 * periodicTableImage.offsetWidth);
+                var height = periodicTableImage.offsetHeight + (0.05 * periodicTableImage.offsetHeight);
+                ChemDrawAPI.window.resizeTo(width, height);
+            }
+        </script>
+    </head>
+
+    <body onload="onLoadBody()" style="text-align: center">
+        <div>
+            <img id="periodicTable" src="periodic-table.png"/>
+        </div>
+    </body>
+</html>
