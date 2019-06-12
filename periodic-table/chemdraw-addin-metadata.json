@@ -1,8 +1,8 @@
 {
-    "name": "Periodic Table Add-in",
+    "name": "Periodic Table",
     "description": "An add-in that displays the periodic table",
     "version": "1.0",
-    "menuItemText": "Periodic Table Add-in",
+    "menuItemText": "Periodic Table",
     "minimumAPIVersion": "1.0",
     "url": "https://abhimanyusirohi.github.io/test-addins/periodic-table/main.html",
     "isModalDialog": false,

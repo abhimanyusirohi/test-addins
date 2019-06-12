@@ -1,8 +1,9 @@
 {
     "sourceName": "Toolbar Add-ins",
     "addins": [
-        "https://abhimanyusirohi.github.io/test-addins/toolbaraddin/chemdraw-addin-metadata.json",
+        "https://abhimanyusirohi.github.io/test-addins/api-version-viewer/chemdraw-addin-metadata.json",
         "https://abhimanyusirohi.github.io/test-addins/periodic-table/chemdraw-addin-metadata.json",
-        "https://abhimanyusirohi.github.io/test-addins/toolbaraddin-missing-image/chemdraw-addin-metadata.json"
+        "https://abhimanyusirohi.github.io/test-addins/toolbaraddin-missing-image/chemdraw-addin-metadata.json",
+        "https://abhimanyusirohi.github.io/test-addins/dropboxoauthexample/chemdraw-addin-metadata.json"
     ]
 }
