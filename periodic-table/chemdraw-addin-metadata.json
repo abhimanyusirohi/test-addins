@@ -4,13 +4,13 @@
     "version": "1.0",
     "menuItemText": "Periodic Table",
     "minimumAPIVersion": "1.0",
-    "url": "https://abhimanyusirohi.github.io/test-addins/periodic-table/main.html",
+    "url": "main.html",
     "isModalDialog": false,
     "toolbar": {
-        "image24": "https://abhimanyusirohi.github.io/test-addins/periodic-table/toolbarImages/24x24.png",
-        "image32": "https://abhimanyusirohi.github.io/test-addins/periodic-table/toolbarImages/32x32.png",
-        "image48": "https://abhimanyusirohi.github.io/test-addins/periodic-table/toolbarImages/48x48.png",
-        "image64": "https://abhimanyusirohi.github.io/test-addins/periodic-table/toolbarImages/64x64.png",
+        "image24": "toolbarImages/24x24.png",
+        "image32": "toolbarImages/32x32.png",
+        "image48": "toolbarImages/48x48.png",
+        "image64": "toolbarImages/64x64.png",
         "tooltip": "Periodic Table"
     }
 }

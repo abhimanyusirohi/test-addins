@@ -4,6 +4,6 @@
     "version": "1.0",
     "menuItemText": "Taj Mahal",
     "minimumAPIVersion": "1.0",
-    "url": "https://abhimanyusirohi.github.io/test-addins/demo/tajmahal/tajmahal.html",
+    "url": "tajmahal.html",
     "canBeUninstalled": true
 }
