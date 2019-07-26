@@ -1,0 +1,16 @@
+{
+    "name": "Clock",
+    "description": "Displays a running clock",
+    "version": "1.0",
+    "menuItemText": "Clock",
+    "minimumAPIVersion": "1.0",
+    "url": "main.html",
+    "isModalDialog": false,
+    "toolbar": {
+        "image24": "https://abhimanyusirohi.github.io/test-addins/clock/toolbarImages/24x24.png",
+        "image32": "https://abhimanyusirohi.github.io/test-addins/clock/toolbarImages/32x32.png",
+        "image48": "https://abhimanyusirohi.github.io/test-addins/clock/toolbarImages/48x48.png",
+        "image64": "https://abhimanyusirohi.github.io/test-addins/clock/toolbarImages/64x64.png",
+        "tooltip": "Clock"
+    }
+}

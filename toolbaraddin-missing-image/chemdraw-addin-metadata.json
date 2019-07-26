@@ -7,7 +7,7 @@
     "url": "https://abhimanyusirohi.github.io/test-addins/toolbaraddin-missing-image/main.html",
     "toolbar": {
         "image24": "https://abhimanyusirohi.github.io/test-addins/toolbaraddin-missing-image/toolbarImages/24x24.png",
-        "image32": "https://abhimanyusirohi.github.io/test-addins/toolbaraddin-missing-image/toolbarImages/32x32.png",
+        "image32": "toolbarImages/32x32.png",
         "image48": "https://abhimanyusirohi.github.io/test-addins/toolbaraddin-missing-image/toolbarImages/48x48.png",
         "image64": "https://abhimanyusirohi.github.io/test-addins/toolbaraddin-missing-image/toolbarImages/64x64.png",
         "tooltip": "Web toolbar add-in with missing image"

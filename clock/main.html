@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Clock</title>
+        <script>
+            function onLoadBody() {
+                ChemDrawAPI.window.resizeTo(450, 200);
+
+                updateTime();
+                setInterval(updateTime, 1000);
+            }
+
+            function updateTime() {
+                var timeDiv = document.getElementById("time");
+                var date = new Date();
+                timeDiv.innerText = date.toLocaleTimeString();
+            }
+        </script>
+
+        <style>
+            body {
+                color: antiquewhite;
+                background-color: darkslategrey;
+            }
+
+            div#content {
+                padding: 10px;
+                height: 90%;
+                width: 90%;
+                text-align: center;
+                vertical-align: middle;
+                font-size: xx-large;
+            }
+        </style>
+    </head>
+
+    <body onload="onLoadBody()">
+        <div id="content">
+            <h1><div id="time"></div></h1>
+        </div>
+    </body>
+</html>
