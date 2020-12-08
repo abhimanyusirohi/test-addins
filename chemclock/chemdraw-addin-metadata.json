@@ -1,0 +1,16 @@
+{
+    "name": "ChemClock",
+    "description": "Shows time using periodic table elements",
+    "version": "1.0",
+    "menuItemText": "ChemClock",
+    "minimumAPIVersion": "1.2",
+    "url": "index.html",
+    "isModalDialog": false,
+    "toolbar": {
+        "image24": "toolbarImages/24x24.png",
+        "image32": "toolbarImages/32x32.png",
+        "image48": "toolbarImages/48x48.png",
+        "image64": "toolbarImages/64x64.png",
+        "tooltip": "ChemClock"
+    }
+}
